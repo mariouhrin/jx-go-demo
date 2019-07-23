@@ -2,6 +2,7 @@ pipeline {
   agent {
     label "jenkins-go"
   }
+
   environment {
     ORG = 'mariouhrin'
     APP_NAME = 'jx-go-demo'
